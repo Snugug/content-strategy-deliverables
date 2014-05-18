@@ -1,1 +1,52 @@
-["index.md"]
+[
+  {
+    "filename": "index.md",
+    "attr": {
+        "data-state": "intro"
+    }
+  },
+  {
+    "filename": "us.md",
+    "attr": {
+        "data-state": "intro",
+        "id": "who-are-you"
+    }
+  },
+  {
+    "filename": "slides-available.md",
+    "attr": {
+      "id": "slides-available",
+      "data-state": "intro"
+    }
+  },
+  {
+    "filename": "north.html",
+    "attr": {
+      "id": "north",
+      "data-state": "north"
+    }
+  },
+  [
+    {
+      "filename": "north--cs1.html",
+      "attr": {
+        "id": "what-is-cs-1",
+        "data-state": "north"
+      }
+    },
+    {
+      "filename": "north--cs2.html",
+      "attr": {
+        "id": "what-is-cs-2",
+        "data-state": "north"
+      }
+    },
+    {
+      "filename": "north--cs3.html",
+      "attr": {
+        "id": "what-is-cs-3",
+        "data-state": "north"
+      }
+    }
+  ]
+]
