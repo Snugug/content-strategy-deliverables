@@ -103,13 +103,20 @@ body {
   border: none;
   box-shadow: none;
   text-align: right;
+  background: none;
+  border-right: .2em solid;
+  padding: 0 1em 0 0;
 }
-/* line 66, ../sass/theme.scss */
+/* line 69, ../sass/theme.scss */
 .reveal blockquote cite {
   font-size: .75em;
   font-weight: bold;
 }
-/* line 72, ../sass/theme.scss */
+/* line 75, ../sass/theme.scss */
+.reveal ul {
+  margin-bottom: 1em;
+}
+/* line 80, ../sass/theme.scss */
 .reveal a {
   color: inherit;
   text-decoration: none;
@@ -123,7 +130,7 @@ body {
   background-position: 0 1.125em;
   text-shadow: 0.0625em 0.0625em 0 #fede32, -0.0625em 0 0 #fede32;
 }
-/* line 78, ../sass/theme.scss */
+/* line 86, ../sass/theme.scss */
 .intro .reveal a {
   text-decoration: none;
   background-repeat: repeat-x;
@@ -135,7 +142,7 @@ body {
   background-position: 0 1.125em;
   text-shadow: 0.0625em 0.0625em 0 black, -0.0625em 0 0 black;
 }
-/* line 82, ../sass/theme.scss */
+/* line 90, ../sass/theme.scss */
 .north .reveal a {
   text-decoration: none;
   background-repeat: repeat-x;
@@ -147,107 +154,123 @@ body {
   background-position: 0 1.125em;
   text-shadow: 0.0625em 0.0625em 0 #f7fafc, -0.0625em 0 0 #f7fafc;
 }
-/* line 86, ../sass/theme.scss */
+/* line 94, ../sass/theme.scss */
 .reveal a.north--link {
   background: none;
   text-shadow: none;
 }
-/* line 98, ../sass/theme.scss */
+/* line 106, ../sass/theme.scss */
 .reveal h1:not(.north), .reveal h2:not(.north), .reveal h3:not(.north), .reveal h4:not(.north), .reveal h5:not(.north) {
   font-family: 'ostrich';
   letter-spacing: .1em;
 }
-/* line 103, ../sass/theme.scss */
+/* line 111, ../sass/theme.scss */
 .reveal h1 a, .reveal h2 a, .reveal h3 a, .reveal h4 a, .reveal h5 a {
   background-position: 0 0.825em !important;
 }
-/* line 108, ../sass/theme.scss */
+/* line 116, ../sass/theme.scss */
 .reveal pre,
 .reveal code {
   font-family: 'scp' monospace;
   font-size: 1em;
 }
-/* line 112, ../sass/theme.scss */
+/* line 120, ../sass/theme.scss */
 .reveal pre.codemark,
 .reveal code.codemark {
   box-shadow: none;
   font-size: .55em;
 }
 
-/* line 136, ../sass/theme.scss */
+/* line 142, ../sass/theme.scss */
+.reveal .controls div.navigate-left {
+  border-right-color: #3c3c3c;
+}
+/* line 146, ../sass/theme.scss */
 .intro .reveal .controls div.navigate-left {
   border-right-color: white;
 }
-/* line 136, ../sass/theme.scss */
+/* line 146, ../sass/theme.scss */
 .north .reveal .controls div.navigate-left {
   border-right-color: #061b25;
 }
-/* line 136, ../sass/theme.scss */
+/* line 146, ../sass/theme.scss */
 .cs .reveal .controls div.navigate-left {
   border-right-color: #3c3c3c;
 }
-/* line 136, ../sass/theme.scss */
+/* line 142, ../sass/theme.scss */
+.reveal .controls div.navigate-right {
+  border-left-color: #3c3c3c;
+}
+/* line 146, ../sass/theme.scss */
 .intro .reveal .controls div.navigate-right {
   border-left-color: white;
 }
-/* line 136, ../sass/theme.scss */
+/* line 146, ../sass/theme.scss */
 .north .reveal .controls div.navigate-right {
   border-left-color: #061b25;
 }
-/* line 136, ../sass/theme.scss */
+/* line 146, ../sass/theme.scss */
 .cs .reveal .controls div.navigate-right {
   border-left-color: #3c3c3c;
 }
-/* line 136, ../sass/theme.scss */
+/* line 142, ../sass/theme.scss */
+.reveal .controls div.navigate-up {
+  border-bottom-color: #3c3c3c;
+}
+/* line 146, ../sass/theme.scss */
 .intro .reveal .controls div.navigate-up {
   border-bottom-color: white;
 }
-/* line 136, ../sass/theme.scss */
+/* line 146, ../sass/theme.scss */
 .north .reveal .controls div.navigate-up {
   border-bottom-color: #061b25;
 }
-/* line 136, ../sass/theme.scss */
+/* line 146, ../sass/theme.scss */
 .cs .reveal .controls div.navigate-up {
   border-bottom-color: #3c3c3c;
 }
-/* line 136, ../sass/theme.scss */
+/* line 142, ../sass/theme.scss */
+.reveal .controls div.navigate-down {
+  border-top-color: #3c3c3c;
+}
+/* line 146, ../sass/theme.scss */
 .intro .reveal .controls div.navigate-down {
   border-top-color: white;
 }
-/* line 136, ../sass/theme.scss */
+/* line 146, ../sass/theme.scss */
 .north .reveal .controls div.navigate-down {
   border-top-color: #061b25;
 }
-/* line 136, ../sass/theme.scss */
+/* line 146, ../sass/theme.scss */
 .cs .reveal .controls div.navigate-down {
   border-top-color: #3c3c3c;
 }
 
-/* line 145, ../sass/theme.scss */
+/* line 155, ../sass/theme.scss */
 .intro .state-background {
   background: black;
 }
-/* line 148, ../sass/theme.scss */
+/* line 158, ../sass/theme.scss */
 .north .state-background {
   background: #f7fafc;
 }
-/* line 151, ../sass/theme.scss */
+/* line 161, ../sass/theme.scss */
 .cs .state-background {
   background: #fede32;
 }
 
-/* line 156, ../sass/theme.scss */
+/* line 166, ../sass/theme.scss */
 .intro {
   color: white;
 }
 
-/* line 160, ../sass/theme.scss */
+/* line 170, ../sass/theme.scss */
 .cs,
 .tools {
   color: #3c3c3c;
 }
 
-/* line 188, ../sass/theme.scss */
+/* line 198, ../sass/theme.scss */
 .reveal .north--logo, .reveal .north--wordmark {
   -webkit-font-feature-settings: "liga","dlig";
   -moz-font-feature-settings: "liga=1, dlig=1";
@@ -261,19 +284,19 @@ body {
   display: inline-block;
   border: none;
 }
-/* line 199, ../sass/theme.scss */
+/* line 209, ../sass/theme.scss */
 .north {
   color: #061b25;
 }
-/* line 204, ../sass/theme.scss */
+/* line 214, ../sass/theme.scss */
 .reveal .north--title {
   font-size: 7em;
 }
-/* line 207, ../sass/theme.scss */
+/* line 217, ../sass/theme.scss */
 .reveal .north--title .north--wordmark {
   font-size: .75em;
 }
-/* line 212, ../sass/theme.scss */
+/* line 222, ../sass/theme.scss */
 .reveal .north--logo {
   padding-right: .16em;
   font-style: normal;
@@ -281,7 +304,7 @@ body {
   -webkit-transform: translateY(0.1194em);
   transform: translateY(0.1194em);
 }
-/* line 219, ../sass/theme.scss */
+/* line 229, ../sass/theme.scss */
 .reveal .north--wordmark {
   font-style: normal;
   color: #5ea9d0;
@@ -291,7 +314,7 @@ body {
   display: inline-block;
   font-family: 'homestead-one', 'homestead-regular';
 }
-/* line 232, ../sass/theme.scss */
+/* line 242, ../sass/theme.scss */
 .reveal .north--wordmark:before {
   content: 'north';
   text-transform: uppercase;
@@ -301,7 +324,7 @@ body {
   left: 0;
   top: -0.065em;
 }
-/* line 241, ../sass/theme.scss */
+/* line 251, ../sass/theme.scss */
 .reveal .north--wordmark:after {
   content: 'north';
   text-transform: uppercase;
@@ -312,7 +335,7 @@ body {
   top: 0;
 }
 
-/* line 253, ../sass/theme.scss */
+/* line 263, ../sass/theme.scss */
 h1 a.wordmark {
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -320,7 +343,7 @@ h1 a.wordmark {
   background: none !important;
   text-shadow: none !important;
 }
-/* line 260, ../sass/theme.scss */
+/* line 270, ../sass/theme.scss */
 h1 a.wordmark .wordmark--4 {
   margin-left: -.10em;
 }

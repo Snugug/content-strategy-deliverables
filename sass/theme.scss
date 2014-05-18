@@ -62,11 +62,19 @@ body {
     border: none;
     box-shadow: none;
     text-align: right;
+    background: none;
+    border-right: .2em solid;
+    padding: 0 1em 0 0;
 
     cite {
       font-size: .75em;
       font-weight: bold;
     }
+  }
+
+  ul {
+    // width: 100%;
+    margin-bottom: 1em;
   }
 
   a {
@@ -132,6 +140,8 @@ body {
 
   @each $dir, $border in $dirs {
     &-#{$dir} {
+      border-#{$border}-color: #3c3c3c;
+
       @each $state, $color in $states {
         .#{$state} & {
           border-#{$border}-color: $color;

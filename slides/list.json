@@ -19,6 +19,8 @@
       "data-state": "intro"
     }
   },
+
+
   {
     "filename": "north.html",
     "attr": {
@@ -28,25 +30,209 @@
   },
   [
     {
-      "filename": "north--cs1.html",
+      "filename": "north/cs1.html",
       "attr": {
         "id": "what-is-cs-1",
         "data-state": "north"
       }
     },
     {
-      "filename": "north--cs2.html",
+      "filename": "north/cs2.html",
       "attr": {
         "id": "what-is-cs-2",
         "data-state": "north"
       }
     },
     {
-      "filename": "north--cs3.html",
+      "filename": "north/cs3.html",
       "attr": {
         "id": "what-is-cs-3",
         "data-state": "north"
       }
     }
-  ]
+  ],
+
+
+  {
+    "filename": "cs/pillars.html",
+    "attr": {
+      "id": "cs-pillars"
+    }
+  },
+  {
+    "filename": "intake.html",
+    "attr": {
+      "id": "intake-center"
+    }
+  },
+  [
+    {
+      "filename": "cs/vision.md",
+      "attr": {
+        "id": "project-vision"
+      }
+    },
+    {
+      "filename": "cs/vision-truth.md",
+      "attr": {
+        "id": "project-vision-description"
+      }
+    },
+    {
+      "filename": "cs/vision-components.md",
+      "attr": {
+        "id": "project-vision-parts"
+      }
+    },
+    {
+      "filename": "cs/vision-example.md",
+      "attr": {
+        "id": "project-vision-example"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "cs/personas.md",
+      "attr": {
+        "id": "user-personas"
+      }
+    },
+    {
+      "filename": "cs/personas-is.md",
+      "attr": {
+        "id": "user-personas-is"
+      }
+    },
+    {
+      "filename": "cs/personas-components.md",
+      "attr": {
+        "id": "user-personas-parts"
+      }
+    },
+    {
+      "filename": "cs/personas-example.md",
+      "attr": {
+        "id": "user-personas-example"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "cs/inventory.md",
+      "attr": {
+        "id": "content-inventory"
+      }
+    },
+    {
+      "filename": "cs/inventory-components.md",
+      "attr": {
+        "id": "content-inventory-parts"
+      }
+    },
+    {
+      "filename": "cs/inventory-image.md",
+      "attr": {
+        "id": "content-inventory-example"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "cs/audit.md",
+      "attr": {
+        "id": "content-audit"
+      }
+    },
+    {
+      "filename": "cs/audit-components.md",
+      "attr": {
+        "id": "content-audit-parts"
+      }
+    },
+    {
+      "filename": "cs/audit-gap.md",
+      "attr": {
+        "id": "content-audit-gap-analysis"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "cs/model.md",
+      "attr": {
+        "id": "content-model"
+      }
+    },
+    {
+      "filename": "cs/model-components.md",
+      "attr": {
+        "id": "content-model-parts"
+      }
+    },
+    {
+      "filename": "cs/model-value.md",
+      "attr": {
+        "id": "content-model-value"
+      }
+    },
+    {
+      "filename": "cs/model-example-1.md",
+      "attr": {
+        "id": "content-model-example-article"
+      }
+    },
+    {
+      "filename": "cs/model-example-2.md",
+      "attr": {
+        "id": "content-model-example-benefits"
+      }
+    },
+    {
+      "filename": "cs/model-example-3.md",
+      "attr": {
+        "id": "content-model-example-attributes"
+      }
+    }
+  ],
+
+  [
+    {
+      "filename": "cs/ia.md",
+      "attr": {
+        "id": "content-ia"
+      }
+    },
+    {
+      "filename": "cs/ia-components.md",
+      "attr": {
+        "id": "content-ia-parts"
+      }
+    },
+    {
+      "filename": "cs/ia-revise.md",
+      "attr": {
+        "id": "content-ia-revise"
+      }
+    }
+  ],
+
+  {
+    "filename": "thank-you.md",
+    "attr": {
+      "id": "thank-you",
+      "data-state": "intro"
+    }
+  },
+  {
+    "filename": "resources.md",
+    "attr": {
+      "id": "resources",
+      "data-state": "intro"
+    }
+  }
 ]
