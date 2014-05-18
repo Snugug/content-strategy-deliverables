@@ -93,7 +93,7 @@ module.exports = function(grunt) {
     });
     return grunt.file.write('index.html', html);
   });
-  grunt.registerTask('test', '*Lint* javascript and coffee files.', ['coffeelint', 'jshint']);
+  grunt.registerTask('test', '*Lint* javascript and coffee files.', ['jshint']);
   grunt.registerTask('server', 'Run presentation locally and start watch process (living document).', ['buildIndex', 'sass', 'connect:livereload', 'watch']);
   grunt.registerTask('dist', 'Save presentation files to *dist* directory.', ['test', 'sass', 'buildIndex', 'copy']);
   return grunt.registerTask('default', ['test', 'server']);
