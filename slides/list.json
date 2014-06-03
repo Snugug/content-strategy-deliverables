@@ -121,6 +121,51 @@
 
   [
     {
+      "filename": "cs/dm.md",
+      "attr": {
+        "id": "domain-modeling"
+      }
+    },
+    {
+      "filename": "cs/dm-summary.md",
+      "attr": {
+        "id": "domain-modeling-summary"
+      }
+    },
+    {
+      "filename": "cs/dm-background.md",
+      "attr": {
+        "id": "domain-modeling-background"
+      }
+    },
+    {
+      "filename": "cs/dm-nutshell.md",
+      "attr": {
+        "id": "domain-modeling-nutshell"
+      }
+    },
+    {
+      "filename": "cs/dm-doing-it.md",
+      "attr": {
+        "id": "domain-modeling-doing-it"
+      }
+    },
+    {
+      "filename": "cs/dm-artifacts.md",
+      "attr": {
+        "id": "domain-modeling-artifacts"
+      }
+    },
+    {
+      "filename": "cs/dm-ubilang.md",
+      "attr": {
+        "id": "domain-modeling-ubilang"
+      }
+    }
+  ],
+
+  [
+    {
       "filename": "cs/inventory.md",
       "attr": {
         "id": "content-inventory"
