@@ -88,7 +88,11 @@ body {
     }
 
     .north & {
-      @include underline(#f7fafc, #061b25)
+      @include underline(#f7fafc, #061b25);
+    }
+
+    .domain & {
+      @include underline(#97e52d, #061b25)
     }
 
     &.north--link {
@@ -128,7 +132,8 @@ body {
   $states: (
     "intro": white,
     "north": #061b25,
-    "cs": #3c3c3c
+    "cs": #3c3c3c,
+    "domain": #97e52d
   );
 
   $dirs: (
@@ -160,6 +165,9 @@ body {
   }
   .cs & {
     background: #fede32;
+  }
+  .domain & {
+    background: #97e52d;
   }
 }
 

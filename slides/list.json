@@ -123,43 +123,50 @@
     {
       "filename": "cs/dm.md",
       "attr": {
-        "id": "domain-modeling"
+        "id": "domain-modeling",
+        "data-state": "domain"
       }
     },
     {
       "filename": "cs/dm-summary.md",
       "attr": {
-        "id": "domain-modeling-summary"
+        "id": "domain-modeling-summary",
+        "data-state": "domain"
       }
     },
     {
       "filename": "cs/dm-background.md",
       "attr": {
-        "id": "domain-modeling-background"
+        "id": "domain-modeling-background",
+        "data-state": "domain"
       }
     },
     {
       "filename": "cs/dm-nutshell.md",
       "attr": {
-        "id": "domain-modeling-nutshell"
+        "id": "domain-modeling-nutshell",
+        "data-state": "domain"
       }
     },
     {
       "filename": "cs/dm-doing-it.md",
       "attr": {
-        "id": "domain-modeling-doing-it"
+        "id": "domain-modeling-doing-it",
+        "data-state": "domain"
       }
     },
     {
       "filename": "cs/dm-artifacts.md",
       "attr": {
-        "id": "domain-modeling-artifacts"
+        "id": "domain-modeling-artifacts",
+        "data-state": "domain"
       }
     },
     {
       "filename": "cs/dm-ubilang.md",
       "attr": {
-        "id": "domain-modeling-ubilang"
+        "id": "domain-modeling-ubilang",
+        "data-state": "domain"
       }
     }
   ],
@@ -265,7 +272,7 @@
       }
     },
     {
-      "filename": "cs/ia-example.md",
+      "filename": "cs/ia-example.html",
       "attr": {
         "id": "content-ia-example"
       }
