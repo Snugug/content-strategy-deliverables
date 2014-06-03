@@ -218,6 +218,12 @@
       "attr": {
         "id": "content-ia-revise"
       }
+    },
+    {
+      "filename": "cs/ia-example.md",
+      "attr": {
+        "id": "content-ia-example"
+      }
     }
   ],
 
